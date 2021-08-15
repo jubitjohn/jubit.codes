@@ -1,0 +1,89 @@
+* {
+  color: #ccd6f6;
+  background-color: #0b192f;
+  font-family: "NTR", sans-serif;
+}
+.about {
+  display: flex;
+  margin-top: 180px;
+  margin-left: 150px;
+  margin-right: 350px;
+}
+.aboutdiv1 {
+  margin-right: 80px;
+}
+.aboutme {
+  font-size: 38px;
+}
+.aboutme-text {
+  font-size: 36px;
+  letter-spacing: 1.4px;
+  padding-bottom: 20px;
+  font-weight: 550;
+}
+
+.abtdescription {
+  font-size: 18px;
+}
+.abtdescription-text,
+.skilltext {
+  font-size: 17px;
+  color: #7a84a3;
+  line-height: 30px;
+  letter-spacing: 1.3px;
+}
+.skilltext {
+  color: #7a84a3;
+}
+
+.abtlist {
+  font-size: 18px;
+  display: flex;
+  color: #7a84a3;
+}
+.listtext {
+  color: #7a84a3;
+  line-height: 27px;
+  letter-spacing: 1.1px;
+  font-size: 15px;
+  margin-left: -29px;
+}
+li {
+  content: hide;
+  list-style-type: none;
+}
+.abtpic {
+  width: 300px;
+  border-radius: 15px;
+  border: solid;
+  border-color: #64ffda;
+}
+.pic {
+  margin-top: 75px;
+}
+.aboutme-text::after {
+  content: "";
+  display: inline-block;
+  width: 300px;
+  height: 1px;
+  margin-left: 15px;
+  margin-bottom: 6px;
+  background-color: #233654;
+}
+/*Responsive design*/
+
+@media only screen and (max-width: 600px) {
+  .aboutdiv1 {
+    margin-right: 30px;
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .pic,
+  .abtpic {
+    margin-top: 80px;
+    width: 200px;
+  }
+}
+
+/*animations*/

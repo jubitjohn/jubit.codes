@@ -1,0 +1,53 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: fixed;
+  right: 0;
+  padding-right: 5%;
+  bottom: 10%;
+  background-color: transparent;
+}
+.socialicons {
+  display: flex;
+  padding-top: 15px;
+  background-color: transparent;
+}
+.navlinkedin {
+  padding-right: 10px;
+}
+.homenavtext,
+.aboutnavtext,
+.experiencenavtext,
+.softwarenavtext,
+.fa-linkedin,
+.fa-github,
+.fas {
+  color: #64ffda;
+  background-color: transparent;
+}
+.mail {
+  padding-right: 0px;
+  padding-left: 10px;
+  background-color: transparent;
+}
+.homenavtext:hover,
+.aboutnavtext:hover,
+.experiencenavtext:hover,
+.softwarenavtext:hover,
+.fa-linkedin:hover,
+.fa-github:hover,
+.fas:hover {
+  cursor: pointer;
+  color: beige;
+  background-color: transparent;
+}
+.homenav,
+.aboutnav,
+.experiencenav,
+.software-creationsnav,
+.socialicons,
+.navlinkedin,
+.github {
+  background-color: transparent;
+}

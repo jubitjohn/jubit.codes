@@ -1,0 +1,71 @@
+* {
+  color: #ccd6f6;
+  background-color: #0b192f;
+
+  font-family: "NTR", sans-serif;
+}
+.typing {
+  color: #ccd6f6;
+  padding-left: 150px;
+  font-size: 88px;
+  margin-top: 200px;
+  font-family: "NTR", sans-serif;
+}
+.description-title {
+  padding-left: 150px;
+  font-size: 44px;
+  padding-top: 10px;
+}
+.description {
+  padding-left: 150px;
+  font-size: 17px;
+  padding-top: 15px;
+  padding-right: 600px;
+  letter-spacing: 1.3px;
+  line-height: 30px;
+  font-family: "NTR", sans-serif;
+  color: #7a84a3;
+}
+
+.hello-button {
+  padding-left: 150px;
+  padding-top: 25px;
+  color: #64ffda;
+  background-color: transparent;
+}
+.button {
+  height: 73px;
+  width: 130px;
+  font-size: 18px;
+  border-color: #64ffda;
+  border-radius: 5px;
+}
+.button:hover {
+  background-color: #203f70;
+}
+.typename {
+  color: #64ffda;
+}
+.buttontxt {
+  color: #64ffda;
+  background-color: transparent;
+}
+.buttontxt:hover {
+  background-color: #203f7000;
+}
+
+/*Responsive design css*/
+@media only screen and (max-width: 600px) {
+  .intro {
+    margin-right: -250px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .typing,
+  .description {
+    padding-right: 10px;
+    margin-right: 10px;
+  }
+}
+
+/*eyes*/

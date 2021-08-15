@@ -1,0 +1,5 @@
+.fade-in-section {
+  opacity: 1;
+  transform: translateY(10vh);
+  transition: opacity 4s ease-out, transform 1s ease-out;
+}

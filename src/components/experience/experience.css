@@ -1,0 +1,50 @@
+.experience {
+  margin-top: 190px;
+  margin-left: 150px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #7a84a3;
+}
+.experienceinfo {
+  display: flex;
+}
+.experienceinfo {
+  margin-top: 35px;
+}
+.exptitle-text {
+  font-size: 36px;
+  font-weight: 700;
+}
+.expcompany {
+  margin-right: 100px;
+  color: #7a84a3;
+}
+.companybox {
+  display: flex;
+}
+.exptitle-text::after {
+  content: "";
+  display: inline-block;
+  width: 300px;
+  height: 1px;
+  margin-left: 15px;
+  margin-bottom: 6px;
+  background-color: #233654;
+}
+.b1 {
+  font-size: 16px;
+  text-align: left;
+  padding-bottom: 19px;
+  padding: 15px;
+  font-weight: lighter;
+  transition: opacity 0.6s ease-out, transform 1s ease-out;
+  will-change: opacity, visibility;
+  border-right: #64ffda solid;
+}
+
+.b1:hover {
+  background-color: #112240;
+  color: #64ffda;
+  font-weight: 500;
+  border-radius: 7px;
+}

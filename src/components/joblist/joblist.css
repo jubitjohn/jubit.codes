@@ -1,0 +1,39 @@
+.job1title {
+  color: #ccd6f6;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1.3px;
+  margin-left: -27px;
+}
+.jobduration {
+  color: #7b86a3;
+  font-size: 13px;
+  margin-left: -25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.job-li-text {
+  color: #7b86a3;
+  padding-top: 10px;
+  margin-left: -59px;
+  font-size: 15px;
+  letter-spacing: 0.9px;
+  line-height: 30px;
+}
+.job-li-text1 {
+  color: #7b86a3;
+  padding-top: 10px;
+  margin-left: 2px;
+}
+@media only screen and (max-width: 600px) {
+  .jobdetails {
+    margin-top: 10px;
+    width: 380px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .companybox {
+    margin-right: -40px;
+  }
+}
