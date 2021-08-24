@@ -20,9 +20,9 @@ function About() {
           <h6 className="abtdescription-text ">
             I am currently studying Information Technology at Cochin University
             Of Science and Technology , with a focus in Machine Learning and
-            Artificial Intelligence.<br></br> I'm interested machine learning,
-            human-computer interactions and frontend development. I like
-            exploring new grounds. I'm also hold of my fair share in
+            Artificial Intelligence.<br></br> I'm interested in machine
+            learning, human-computer interactions and frontend development. I
+            like exploring new grounds. I'm also hold my fair share in
             entrepreneurship. In my free time, I eat guava fruit and play games
             or watch Netflix.
           </h6>

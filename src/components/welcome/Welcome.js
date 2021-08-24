@@ -34,8 +34,8 @@ function Welcome() {
             typewriter
 
               .typeString("I create stuff sometime.")
-              .deleteChars(9)
-              .typeString("sometimes.")
+              .deleteChars(2)
+              .typeString("es.")
               .pauseFor(100)
               .start();
           }}

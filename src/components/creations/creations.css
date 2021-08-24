@@ -29,6 +29,7 @@
 .creationtitle {
   position: relative;
   background-color: transparent;
+  font-weight: 700;
 }
 .creationdes {
   padding-top: 18px;
