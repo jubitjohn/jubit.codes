@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import "./about.css";
-import logo from "./jubitjohn.jpg";
+import logo from "./jubit.jpeg";
 import "../animate.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -18,13 +18,13 @@ function About() {
         </div>
         <div data-AOS="fade-up" className="abtdescription ">
           <h6 className="abtdescription-text ">
-            I am currently studying Information Technology at Cochin University
-            Of Science and Technology , with a focus in Machine Learning and
-            Artificial Intelligence.<br></br> I'm interested in machine
-            learning, human-computer interactions and frontend development. I
-            like exploring new grounds. I'm also hold my fair share in
-            entrepreneurship. In my free time, I eat guava fruit and play games
-            or watch Netflix.
+            I am currently studying <b>Information Technology</b> at{" "}
+            <b>Cochin University Of Science and Technology</b>, with a focus in
+            Machine Learning and Artificial Intelligence.<br></br> I'm
+            interested in machine learning, human-computer interactions and
+            frontend development. I like exploring new grounds. I'm also hold my
+            fair share in entrepreneurship. In my free time, I eat guava fruit
+            and play games or watch Netflix.
           </h6>
         </div>
         <div data-AOS="fade-up" className="skills">

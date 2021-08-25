@@ -62,53 +62,7 @@ function Creations() {
           </div>
         </div>
       </div>
-      <div className="creations">
-        <div
-          data-AOS="fade-up"
-          data-aos-delay="800"
-          className="creationcards cards"
-        >
-          <div className="fileicon">
-            <i class="far fa-folder"></i>
-          </div>
-          <div className="creationtitle">DBMS mini Project</div>
-          <div className="creationdes">
-             Courier Management System is a web-based system that enables a
-            courier management company to track and manage packages.
-            <div className="tech">HTML/CSS, JS, SQL, PHP</div>
-          </div>
-        </div>
-        <div
-          data-AOS="fade-up"
-          data-aos-delay="1000"
-          className="creationcards cards"
-        >
-          <div className="fileicon">
-            <i class="far fa-folder"></i>
-          </div>
-          <div className="creationtitle">DBMS mini Project</div>
-          <div className="creationdes">
-             Courier Management System is a web-based system that enables a
-            courier management company to track and manage packages.
-            <div className="tech">HTML/CSS, JS, SQL, PHP</div>
-          </div>
-        </div>
-        <div
-          className="creationcards cards"
-          data-AOS="fade-up"
-          data-aos-delay="1200"
-        >
-          <div className="fileicon">
-            <i class="far fa-folder"></i>
-          </div>
-          <div className="creationtitle">DBMS mini Project</div>
-          <div className="creationdes">
-             Courier Management System is a web-based system that enables a
-            courier management company to track and manage packages.
-            <div className="tech">HTML/CSS, JS, SQL, PHP</div>
-          </div>
-        </div>
-      </div>
+      <div className="creations"></div>
     </div>
   );
 }

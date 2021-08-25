@@ -31,7 +31,8 @@ function Job3() {
           <ul className="job-li-text">
             <li data-AOS="fade-up" data-aos-delay="200">
               <i class="fas fa-caret-right"></i>
-              Using ionic framework, I developed a Basic calculator application.
+              Using ionic framework, I developed a Basic computation
+              application.
             </li>
 
             <li data-AOS="fade-up" data-aos-delay="400">

@@ -5,6 +5,7 @@ import Typewriter from "typewriter-effect";
 import $ from "jquery";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import ThreeJSAnimation from "../jubit-model";
 
 function Welcome() {
   useEffect(() => {
@@ -12,14 +13,16 @@ function Welcome() {
   }, []);
   return (
     <div className="intro">
-      <div className="model"></div>
+      <div id="jubit-model">
+        <ThreeJSAnimation />
+      </div>
       <div className="typing">
         <Typewriter
           onInit={(typewriter) => {
             typewriter
 
               .typeString(
-                'hi, <span style="color: #64ffda;">jubit</span> here...'
+                'hi, <b><span style="color: #64ffda;">jubit</span></b> here...'
               )
 
               .pauseFor(500)
@@ -33,9 +36,8 @@ function Welcome() {
           onInit={(typewriter) => {
             typewriter
 
-              .typeString("I create stuff sometime.")
-              .deleteChars(2)
-              .typeString("es.")
+              .typeString("I create stuff sometimes.")
+
               .pauseFor(100)
               .start();
           }}
