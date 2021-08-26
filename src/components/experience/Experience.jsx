@@ -13,7 +13,7 @@ function Experience() {
     AOS.init({ duration: 2000 });
   }, []);
   return (
-    <div data-AOS="fade-up" className="experience">
+    <div data-AOS="fade-up" className="experience" id="experience">
       <div className="exptitle">
         <h3 className="exptitle-text">/ experience</h3>
       </div>

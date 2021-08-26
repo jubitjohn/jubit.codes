@@ -8,7 +8,7 @@ function Creations() {
     AOS.init({ duration: 2000 });
   }, []);
   return (
-    <div data-AOS="fade-up" className="creation-boxes">
+    <div data-AOS="fade-up" className="creation-boxes" id="creations">
       <div className="creationheader">/ software creations</div>
       <div className="creations">
         <div

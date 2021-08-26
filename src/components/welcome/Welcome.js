@@ -12,7 +12,7 @@ function Welcome() {
     AOS.init({ duration: 2000 });
   }, []);
   return (
-    <div className="intro">
+    <div className="intro" id="intro">
       <div id="jubit-model">
         <ThreeJSAnimation />
       </div>
@@ -49,12 +49,14 @@ function Welcome() {
         development, and everything in between.
       </div>
       <div data-AOS="fade-up" data-aos-delay="500" className="hello-button">
-        <button className="button">
-          <i class="fas fa-envelope"></i>
-          <span data-AOS="fade-up" className="buttontxt ">
-            Say hello
-          </span>
-        </button>
+        <a href="mailto:jubitjohn1@gmail.com">
+          <button className="button" href="mailto:someone@example.com">
+            <i class="fas fa-envelope"></i>
+            <span data-AOS="fade-up" className="buttontxt ">
+              Say hello
+            </span>
+          </button>
+        </a>
       </div>
     </div>
   );

@@ -11,7 +11,7 @@ function About() {
     AOS.init({ duration: 2000 });
   }, []);
   return (
-    <div data-AOS="fade-up" className="about">
+    <div data-AOS="fade-up" className="about" id="about">
       <div className="aboutdiv1">
         <div className="aboutme">
           <h2 className="aboutme-text">/ about me</h2>
