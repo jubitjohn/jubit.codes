@@ -48,3 +48,9 @@
   font-weight: 500;
   border-radius: 7px;
 }
+/*responsive design*/
+@media only screen and (max-width: 800px) {
+  .experience {
+    margin-left: 50px;
+  }
+}

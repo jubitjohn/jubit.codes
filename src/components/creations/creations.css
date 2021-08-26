@@ -72,6 +72,7 @@
   .creation-boxes {
     margin-top: 100px;
     width: 400px;
+    margin-left: 50px;
   }
 }
 @media only screen and (max-width: 800px) {
