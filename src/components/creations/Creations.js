@@ -16,8 +16,15 @@ function Creations() {
           data-aos-delay="200"
           className="creationcards cards"
         >
-          <div className="fileicon">
-            <i class="far fa-folder"></i>
+          <div className="creationlinks">
+            <div className="fileicon">
+              <i class="far fa-folder"></i>
+            </div>
+            <div className="githublink">
+              <a href="https://github.com/jubitjohn/Courier_management">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
           </div>
           <div className="creationtitle">
             Courier Management Systems - DBMS mini Project
@@ -33,8 +40,15 @@ function Creations() {
           data-aos-delay="400"
           className="creationcards cards"
         >
-          <div className="fileicon">
-            <i class="far fa-folder"></i>
+          <div className="creationlinks">
+            <div className="fileicon">
+              <i class="far fa-folder"></i>
+            </div>
+            <div className="githublink">
+              <a href="https://github.com/jubitjohn">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
           </div>
           <div className="creationtitle">
             Fake news Detection with Machine Learning
@@ -51,8 +65,15 @@ function Creations() {
           data-aos-delay="600"
           className="creationcards cards"
         >
-          <div className="fileicon">
-            <i class="far fa-folder"></i>
+          <div className="creationlinks">
+            <div className="fileicon">
+              <i class="far fa-folder"></i>
+            </div>
+            <div className="githublink">
+              <a href="https://github.com/jubitjohn/PR2PO">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
           </div>
           <div className="creationtitle">PR2PO Application</div>
           <div className="creationdes">
@@ -65,6 +86,12 @@ function Creations() {
       </div>
       <div className="creations">
         <br></br>
+      </div>
+      <div className="designcredits">
+        <div className="designcredittxt">
+          Designed & Developed by <span className="jubitjohn">Jubit John</span>
+          <br></br>All rights reserved. ©
+        </div>
       </div>
     </div>
   );

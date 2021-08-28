@@ -25,6 +25,14 @@
   border-radius: 12px;
   background-color: #112240 !important;
 }
+.creationlinks {
+  display: flex;
+  background-color: transparent;
+}
+.githublink {
+  padding-left: 150px;
+  background-color: transparent;
+}
 
 .creationtitle {
   position: relative;
@@ -66,7 +74,16 @@
   background-color: transparent;
   color: #64ffda;
 }
-
+.designcredits {
+  text-align: center;
+}
+.designcredittxt {
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+.jubitjohn {
+  color: #64ffda;
+}
 /*responsive design*/
 @media only screen and (max-width: 800px) {
   .creation-boxes {
@@ -84,5 +101,9 @@
   .creationcards {
     width: auto;
     flex-grow: 1;
+  }
+
+  .githublink {
+    padding-left: 20px;
   }
 }
