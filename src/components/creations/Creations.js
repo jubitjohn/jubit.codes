@@ -64,7 +64,9 @@ function Creations() {
           </div>
         </div>
       </div>
-      <div className="creations"></div>
+      <div className="creations">
+        <br></br>
+      </div>
     </div>
   );
 }
