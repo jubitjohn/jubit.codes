@@ -43,7 +43,7 @@ function Creations() {
              Long Short Term Memory (LSTM) network to detect fake news from a
             given news corpus. This project could be used to automatically
             predict whether the circulating news is fake or not.
-            <div className="tech">HTML/CSS, JS, SQL, PHP</div>
+            <div className="tech">Python</div>
           </div>
         </div>
         <div
