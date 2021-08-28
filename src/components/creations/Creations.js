@@ -58,8 +58,7 @@ function Creations() {
           <div className="creationdes">
              PR2PO is a command-driven procurement application that helps the
             user to create purchase requisitions, view requisition details,
-            convert purchase requisition into purchase order.Application also
-            adds a standard terms and condition to the purchase order.
+            convert purchase requisition into purchase order.
             <div className="tech">C++</div>
           </div>
         </div>
