@@ -54,11 +54,13 @@ function Creations() {
           <div className="fileicon">
             <i class="far fa-folder"></i>
           </div>
-          <div className="creationtitle">DBMS mini Project</div>
+          <div className="creationtitle">PR2PO Application</div>
           <div className="creationdes">
-             Courier Management System is a web-based system that enables a
-            courier management company to track and manage packages.
-            <div className="tech">HTML/CSS, JS, SQL, PHP</div>
+             PR2PO is a command-driven procurement application that helps the
+            user to create purchase requisitions, view requisition details,
+            convert purchase requisition into purchase order.Application also
+            adds a standard terms and condition to the purchase order.
+            <div className="tech">C++</div>
           </div>
         </div>
       </div>
