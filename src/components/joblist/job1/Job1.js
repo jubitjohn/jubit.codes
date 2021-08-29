@@ -35,7 +35,7 @@ function Job1() {
               fundamentals of Azure cloud computing.
             </li>
             <li data-AOS="fade-up" data-aos-delay="400" className="job-li-text">
-              <i class="fas fa-caret-right"></i>Upcoming founder and Tech lead
+              <i class="fas fa-caret-right"></i> Upcoming founder and Tech lead
               at MLSA club, CUSAT.
             </li>
             <li data-AOS="fade-up" data-aos-delay="600" className="job-li-text">
