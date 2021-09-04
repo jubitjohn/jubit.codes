@@ -4,3 +4,10 @@
   background-color: #0b192f;
   font-family: "NTR", sans-serif;
 }
+@media only screen and (max-width: 800px) {
+  .designcredits,
+  .designcredittxt {
+    margin-right: -10px;
+    margin-left: 95px;
+  }
+}

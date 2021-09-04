@@ -15,7 +15,7 @@ function App() {
       <NavBar />
       <div className="designcredits">
         <div className="designcredittxt">
-          Designed & Developed by <span className="jubitjohn">Jubit John</span>
+          Designed & Developed by <span className="jubitjohn">Jubit</span>
           <br></br>All rights reserved. ©
         </div>
       </div>
