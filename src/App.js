@@ -13,6 +13,12 @@ function App() {
       <Experience />
       <Creations />
       <NavBar />
+      <div className="designcredits">
+        <div className="designcredittxt">
+          Designed & Developed by <span className="jubitjohn">Jubit John</span>
+          <br></br>All rights reserved. ©
+        </div>
+      </div>
     </div>
   );
 }
