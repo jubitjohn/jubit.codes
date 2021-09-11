@@ -12,7 +12,7 @@ function Job2() {
     <div data-AOS="fade-up" className="job1">
       <div className="jobdetails">
         <div className="job1title">
-          Project Lead – WordPress{" "}
+          Co-Founder – Project Lead{" "}
           <Typewriter
             onInit={(typewriter) => {
               typewriter
