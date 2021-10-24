@@ -44,9 +44,9 @@ function Welcome() {
         />
       </div>
       <div data-AOS="fade-up" className="description ">
-        I'm a software engineer and a techie based in Kochi. I have profound
-        interest in machine learning, human-computer interactions, frontend
-        development, and everything in between.
+        I'm a software engineer and a tech enthusiast based in Kochi. I have
+        profound interest in machine learning, human-computer interactions,
+        frontend development, and everything in between.
       </div>
       <div data-AOS="fade-up" data-aos-delay="500" className="hello-button">
         <a href="mailto:jubitjohn1@gmail.com">
