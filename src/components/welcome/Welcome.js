@@ -22,7 +22,7 @@ function Welcome() {
             typewriter
 
               .typeString(
-                'hi, <b><span style="color: #64ffda;">Jubit</span></b> here.'
+                'Hi, <b><span style="color: #64ffda;">Jubit</span></b> here.'
               )
 
               .pauseFor(500)
