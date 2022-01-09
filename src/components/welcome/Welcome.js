@@ -5,7 +5,6 @@ import Typewriter from "typewriter-effect";
 import $ from "jquery";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import logo from "./jubit.jpeg";
 import ThreeJSAnimation from "../jubit-model";
 
 function Welcome() {
@@ -59,9 +58,7 @@ function Welcome() {
           </button>
         </a>
       </div>
-      <div data-AOS="fade-up" data-aos-delay="500" className="pic">
-        <img className="abtpic" src={logo} alt="Logo" />
-      </div>
+
     </div>
   );
 }
