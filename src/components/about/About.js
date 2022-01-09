@@ -22,7 +22,7 @@ function About() {
             <b>Cochin University Of Science and Technology</b>, with a focus in
             Machine Learning and Artificial Intelligence.<br></br> I'm
             interested in machine learning, human-computer interactions and
-            frontend development. I like exploring new grounds. I'm also hold my
+            frontend development. I like exploring new grounds. I also hold my
             fair share in entrepreneurship. In my free time, I eat guava fruit
             and play games or watch Netflix.
           </h6>
